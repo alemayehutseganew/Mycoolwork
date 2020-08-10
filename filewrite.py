@@ -1,0 +1,6 @@
+filename=input('enter file name')
+f=open(filename,'a')
+data=input('enter data')
+f.write(data)
+f.flush()
+f.close()
